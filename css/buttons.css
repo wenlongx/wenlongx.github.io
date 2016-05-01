@@ -11,9 +11,9 @@
 ******************************************************/
 
 .btn {
-	color: #4d4d4d;
+	color: #f2f2f2;
 	padding: 14px 24px;
-	background: #f2f2f2;
+	background: #67a8cb;
 	border: 0 none;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -21,8 +21,11 @@
 	box-shadow: none;
 	text-shadow: none;
 }
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn:focus, .btn:hover, .btn:active:focus, .btn.active:focus {
 	outline: 0 none;
+    color: #f2f2f2;
+	background: #ff6d6d;
+	border-color: #949494;
 }
 /******************************************************
 	STANDARD BUTTONS
@@ -108,9 +111,6 @@
 	text-shadow: none;
 }
 .btn-sharp:hover, .btn-sharp:focus, .btn-sharp:active, .btn-sharp.active, .open > .dropdown-toggle.btn-sharp {
-	background: #ff6d6d;
-	border-color: #949494;
-	color: #f2f2f2;
 }
 
 /******************************************************
